@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div>
+      <form class="form" action="">
+        <div class="form-div">
+          <div>
+            <label class="label" for="title">Title</label>
+            <input id="title" type="text" />
+          </div>
+
+          <div>
+            <label class="label" for="Discription">Discription</label>
+            <input id="Discription" type="text" />
+          </div>
+
+          <div>
+            <label class="label" for="CreatedAt">Created At</label>
+            <input id="CreatedAt" type="date" />
+          </div>
+          <div>
+            <label class="label" for="file">Upload File</label>
+            <input
+              class="input-button"
+              accept=".png, .jpg, .jpeg"
+              id="file"
+              type="file"
+            />
+          </div>
+          <div>
+            <label class="label" for="select">Catagories</label>
+            <select class="select" name="select" id="select" value="null">
+              <option id="Categorie1" value="null">select one option</option>
+              <option id="Categorie1" value="Development">Development</option>
+
+              <option id="Categorie2" value="Desigining">Desigining</option>
+
+              <option id="Categorie3" value="Testing">Testing</option>
+            </select>
+          </div>
+          <div>
+            <label class="label" for="author">Author</label>
+            <input id="author" list="authorlist" type="text" />
+            <datalist id="authorlist">
+              <option value="Ahsan">Ahsan</option>
+              <option value="Abdul Raheem">Abdul Raheem</option>
+              <option value="Sajawal">Sajawal</option>
+              <option value="Hamza">Hamza</option>
+            </datalist>
+          </div>
+          <div>
+            <label style="display: block" for="select2">Sub Categories</label>
+            <select class="select sub" name="selects" id="select2">
+              <optgroup>
+                `
+                <option id="subcategory" value="none">
+                  chose a Sub Category
+                </option>
+              </optgroup>
+              <optgroup id="Developmentopt" label="Developmentopt">
+                <option id="subcatagoried1" value="HTML">HTML</option>
+                <option id="subcatagoried2" value="">CSS</option>
+                <option id="subcatagoried3" value="">JS</option>
+              </optgroup>
+              <!-- <optgroup id="choseyoutech" label="choseyoutech">
+                chose your tech
+              </optgroup> -->
+              <optgroup id="Desigining" label="Desigining">
+                <option id="subcatagoriede4" value="">Logo Desigining</option>
+                <option id="subcatagoriede5" value="">photoshop</option>
+              </optgroup>
+              <optgroup id="Testing" label="Testing">
+                <option id="subcatagoriet6" value="">HTML</option>
+                <option id="subcatagoriet7" value="">Cypress</option>
+              </optgroup>
+            </select>
+          </div>
+          <div class="button-div">
+            <button id="sumbit" class="sumbit-btn">Sumbit</button>
+          </div>
+        </div>
+      </form>
+    </div>
+    <section class="section2">
+      <div>
+        <h2>Title Goes Here</h2>
+      </div>
+      <div>
+        <h2>Discription AT Goes Here</h2>
+      </div>
+      <div>
+        <h2>Date And Time Goes Here</h2>
+      </div>
+      <div>
+        <img
+          style="width: 80px; border-radius: 100px"
+          src="download.png"
+          alt=""
+        />
+        <span class="span">Author Name will be here</span>
+      </div>
+      <div></div>
+      <div class="button-div">
+        <button class="buttonc2">Edit</button>
+        <button class="buttonc1">Priew</button>
+        <button class="buttonc2">Delete</button>
+      </div>
+    </section>
+
+    <section class="sectiontable">
+      <div class="table">
+        <div class="first-table"><h3>Title</h3></div>
+        <div class="first-table"><h3>Discrciption</h3></div>
+        <div class="first-table"><h3>CreatedAt</h3></div>
+        <div class="first-table"><h3>Category</h3></div>
+        <div class="first-table"><h3>Author</h3></div>
+        <div class="first-table"><h3>Author</h3></div>
+      </div>
+      <div id="fornew">
+        <div class="table2">
+          <div class="first-table2"><h3>Title</h3></div>
+          <div class="first-table2"><h3>Discrciption</h3></div>
+          <div class="first-table2"><h3>CreatedAt</h3></div>
+          <div class="first-table2"><h3>Category</h3></div>
+          <div class="first-table2"><h3>Author</h3></div>
+          <div class="first-table2">
+            <h3>Options for This Row</h3>
+            <button class="buttonc2">Edit</button>
+            <button class="buttonc1">Priew</button>
+            <button class="buttonc2">Delete</button>
+          </div>
+        </div>
+      </div>
+    </section>
+    <script src="script.js"></script>
+  </body>
+</html>

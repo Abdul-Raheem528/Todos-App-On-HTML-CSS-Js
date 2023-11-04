@@ -1,0 +1,157 @@
+body {
+  box-sizing: border-box;
+  margin: 0%;
+  padding: 0%;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  scroll-behavior: smooth;
+}
+.label {
+  display: block;
+  font-weight: 500;
+  margin: 12px 0;
+}
+.span {
+  font-weight: 900;
+  background-color: rgba(204, 204, 204, 0.448);
+  padding: 8px 20px;
+  border-radius: 0px 12px 12px 12px;
+}
+.section2 {
+  width: 900px;
+  margin: 0 auto;
+  margin-top: 100px;
+  background-color: white;
+  display: grid;
+  margin-bottom: 100px;
+
+  grid-template-columns: 1fr 1fr;
+
+  border-radius: 20px;
+  box-shadow: 0px 0px 20px 20px #e9e9e9;
+  padding: 40px 20px 40px 120px;
+  z-index: -1;
+}
+.form {
+  width: 1100px;
+  margin: 0 auto;
+  margin-top: 100px;
+  background-color: white;
+  border-radius: 20px;
+  box-shadow: 0px 0px 20px 20px #e9e9e9;
+  padding: 40px 20px 40px 120px;
+  z-index: -1;
+}
+.input-button {
+  font-size: 17px;
+  color: blue;
+}
+.select {
+  padding: 6px 20px;
+  border-radius: 12px;
+}
+.form-div {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+input {
+  padding: 8px 30px 8px 30px;
+  border-radius: 12px;
+  border-color: rgba(204, 204, 204, 0.448);
+}
+
+.button-div {
+  margin-top: 20px;
+}
+
+/* //////////////////////// */
+/* //////////////////////// */
+/* //////////////////////// */
+/* *****   Table CSS Here */
+
+.table {
+  width: 1300px;
+  background-color: aliceblue;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+}
+.sectiontable {
+  margin-bottom: 100px;
+}
+.first-table {
+  background-color: rgb(0, 145, 255);
+  padding: 20px;
+  color: #fff;
+  border: 1px solid #000;
+}
+
+/* **************************** */
+/* **************************** */
+/* ****   Tamplate Letral Table */
+.first-table2 {
+  background-color: rgb(246, 248, 249);
+  padding: 20px;
+  color: #fff;
+  border: 1px solid #000;
+}
+.first-table2 h3 {
+  color: #000;
+  font-size: 12px;
+}
+.table2 {
+  width: 1300px;
+  background-color: aliceblue;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+}
+.buttonc1 {
+  background-color: rgb(3, 82, 219);
+  color: white;
+  border: 0;
+  transition: all 0.5s;
+}
+
+.buttonc1:hover {
+  background-color: red;
+  cursor: pointer;
+}
+.buttonc2 {
+  background-color: red;
+  color: white;
+  border: 0;
+  transition: all 0.5s;
+}
+.opt-group :hover {
+  background-color: red;
+}
+.buttonc2:hover {
+  background-color: rgb(14, 62, 194);
+  cursor: pointer;
+}
+.sumbit-btn {
+  background-color: rgb(14, 62, 194);
+  cursor: pointer;
+  border: 0;
+  padding: 10px 30px 10px 30px;
+  transition: all 0.5s;
+  border-radius: 12px;
+  color: #fff;
+}
+.sumbit-btn:hover {
+  background-color: rgb(255, 0, 0);
+}
+.sub {
+  margin-left: 20px;
+}
+.visible {
+  display: block;
+}
+.disabled {
+  display: none;
+}
+.sub-div {
+  display: none;
+}
